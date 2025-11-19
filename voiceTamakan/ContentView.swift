@@ -24,7 +24,9 @@ struct ContentView: View {
                 isRecording.toggle()
             }
 
-            Text("Hello, world!")
+            Button("Play Recording") {
+                           audioVM.playRecording()
+                       }
         }
         .padding()
     }
