@@ -29,9 +29,22 @@
 		9DEE96F42ECC5BD9000CBFC1 /* voiceTamakanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voiceTamakanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9DEE97082ECCC574000CBFC1 /* Exceptions for "voiceTamakan" folder in "voiceTamakan" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9DEE96DC2ECC5BD8000CBFC1 /* voiceTamakan */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9DEE96DF2ECC5BD8000CBFC1 /* voiceTamakan */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9DEE97082ECCC574000CBFC1 /* Exceptions for "voiceTamakan" folder in "voiceTamakan" target */,
+			);
 			path = voiceTamakan;
 			sourceTree = "<group>";
 		};
@@ -400,6 +413,9 @@
 				DEVELOPMENT_TEAM = MU2TU3UB9V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = voiceTamakan/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "plz allow acess";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "plz allow speech ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -432,6 +448,9 @@
 				DEVELOPMENT_TEAM = MU2TU3UB9V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = voiceTamakan/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "plz allow acess";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "plz allow speech ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
