@@ -13,7 +13,7 @@ class AudioRecordingViewModel: ObservableObject {
     let audioEngine = AVAudioEngine()
     var audioFile: AVAudioFile?
     var player: AVAudioPlayer?
-
+    
 
     // MARK: - 🔹 method to record voice
 

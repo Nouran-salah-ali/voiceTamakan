@@ -29,22 +29,9 @@
 		9DEE96F42ECC5BD9000CBFC1 /* voiceTamakanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voiceTamakanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9DEE97082ECCC574000CBFC1 /* Exceptions for "voiceTamakan" folder in "voiceTamakan" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 9DEE96DC2ECC5BD8000CBFC1 /* voiceTamakan */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9DEE96DF2ECC5BD8000CBFC1 /* voiceTamakan */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				9DEE97082ECCC574000CBFC1 /* Exceptions for "voiceTamakan" folder in "voiceTamakan" target */,
-			);
 			path = voiceTamakan;
 			sourceTree = "<group>";
 		};
@@ -188,6 +175,7 @@
 				TargetAttributes = {
 					9DEE96DC2ECC5BD8000CBFC1 = {
 						CreatedOnToolsVersion = 26.0.1;
+						LastSwiftMigration = 2600;
 					};
 					9DEE96E92ECC5BD9000CBFC1 = {
 						CreatedOnToolsVersion = 26.0.1;
@@ -208,6 +196,8 @@
 			);
 			mainGroup = 9DEE96D42ECC5BD8000CBFC1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9DEE96DE2ECC5BD8000CBFC1 /* Products */;
 			projectDirPath = "";
@@ -408,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MU2TU3UB9V;
@@ -432,6 +423,8 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "voiceTamakan/voiceTamakan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MU2TU3UB9V;
@@ -467,6 +461,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "voiceTamakan/voiceTamakan-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
